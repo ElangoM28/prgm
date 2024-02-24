@@ -1,0 +1,23 @@
+package practice;
+
+import java.util.Scanner;
+
+public class swap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int c = swap();
+		System.out.println(c);
+
+	}
+	static void swap() {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int temp = a;
+		a=b;
+		b=temp;
+	//	return a;
+	}
+
+}
